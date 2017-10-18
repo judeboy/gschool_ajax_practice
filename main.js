@@ -15,5 +15,9 @@ $(document).ready(function() {
     // }
     // console.log($image);
 
+
+    //Example 1: grab the feelslike temp
+    //Example 2: grab the actual temp
+    //Example 3: grab the elevation and full location
   })
 });
