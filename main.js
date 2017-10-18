@@ -17,6 +17,10 @@ $(document).ready(function() {
 
 
     //Example 1: grab the feelslike temp
+    let feels = data.current_observation.feelslike_f;
+    console.log(feels)
+    let feelsText = $('#feelsLike')
+    feelsText.html(feels + ' degrees F');
     //Example 2: grab the actual temp
     //Example 3: grab the elevation and full location
   })
